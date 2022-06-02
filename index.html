@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="range__container">
+            <div class="group">
+                <label for="from-input" id="from-label">From:</label>
+                <input type="text" id="from-input">    
+            </div>
+            <div class="group">
+                <label for="to-input" id="to-label">To:</label>
+                <input type="text" id="to-input">    
+            </div>
+        </div>
+        <p id="number">-</p>
+        <button type="button" id="generate__button" onclick="generateRandomNumber()">Generate Random Number</button>
+    </div>
+</body>
+</html>
